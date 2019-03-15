@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top-menu{
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+.header{
+	height: 650px;
+	background-image: url(../img/im1.jpg);
+	background-size: cover; 
+}
+.logo{
+	line-height: 120px;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-left: 122px;
+}
+.navigation a{
+	text-decoration: none;
+	color: #212121;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 120px;
+	text-align: right;
+	margin-right: 46px
+}
+.header h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 180px;
+}
+.header p{
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20px;
+}
+.button-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.button{
+	color: #ffffff;
+	border: 3px #fff solid;
+	line-height: 60px;
+	padding-left: 30px;
+	padding-left: 30px;
+	font-size: 20px;
+	margin: 0 23px;
+	text-align: center;
+	padding-right: 30px;
+	cursor: pointer;
+}
+.button:hover{
+	border-color: #00897b;
+	background: #00897b;
+}
+h2{
+	padding-top: 124px;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #212121;
+	text-align: center;
+}
+.middle{
+	width: 630px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 38px;
+	padding-bottom: 100px;
+}
+.aboutus{
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+.icons{
+	display: flex;
+	justify-content: center;
+}
+.one-icons{
+	width: 260px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-bottom: 100px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.bold{
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 22px;
+}
+.text{
+	font-size: 15px;
+	padding-top: 22px;
+}
+.blue{
+	background-color: #e4fdf9;
+}
+.row{
+	display: flex;
+	justify-content: center;
+}
+.bigbutton{
+	width: 360px;
+	height: 430px;
+	background: #ffffff;
+	text-align: center;
+	justify-content: center;
+	margin: 30px;
+}
+.butImg{
+	filter: invert(1);
+	padding-top: 22px;
+}
+.op{
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 40px;
+}
+.fol{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+}
+.bigbutton:hover{
+	border-color: #00897b;
+	background: #00897b;
+	cursor: pointer;
+}
+
+.bigbutton:hover .butImg{
+	filter: invert(0);
+}
+.bigbutton:hover .op{
+	color: #fff;
+}
+.bigbutton:hover .fol{
+	color: #fff;
+}
+.but{
+	border: 3px #000 solid;
+	line-height: 50px;
+	padding-left: 15px;
+	font-size: 20px;
+	margin: 0 23px;
+	text-align: center;
+	padding-right: 15px;
+	cursor: pointer; 
+	margin-top: 90px;
+	display: inline-block;
+}
+.bigbutton:hover .but{
+	color: #fff;
+	border-color: #fff;
+}
+.LatestWorks{
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.button3{
+	color: #212121;
+	border: 3px #00897b solid;
+	line-height: 50px;
+	padding-left: 14px;
+	font-size: 20px;
+	margin: 0 20px;
+	text-align: center;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.button3:hover{
+ color: #fff;
+ background-color: #00897b;
+}
+.button-centainer3{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.blocks{
+	display: flex;
+	justify-content: center;
+}
+.block{
+	background-position: center;
+	background-size: cover;
+	width: 366px;
+	height: 370px;
+	margin: 30px;
+}
+.descr{
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+}
+.block:hover .descr{
+	display: flex;
+}
+.p1{
+	font-size: 20px;
+	color: #fff;
+}
+
